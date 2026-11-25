@@ -48,12 +48,21 @@ export default function RoleSelectPage() {
               className="text-left rounded-xl p-4 border border-cathy-border bg-cathy-panel hover:border-cathy-primary hover:-translate-y-0.5 transition group"
             >
               <div className="flex items-center justify-between mb-3">
-                <div
-                  className="w-11 h-11 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform"
-                  style={{ background: role.avatarAccent }}
-                >
-                  <Icon className="w-5 h-5 text-white" />
-                </div>
+                {role.image ? (
+                  <img
+                    src={role.image}
+                    alt={role.codename}
+                    className="w-20 h-20 rounded-xl object-cover group-hover:scale-110 transition-transform"
+                    style={{ background: role.avatarAccent }}
+                  />
+                ) : (
+                  <div
+                    className="w-20 h-20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform"
+                    style={{ background: role.avatarAccent }}
+                  >
+                    <Icon className="w-8 h-8 text-white" />
+                  </div>
+                )}
                 <Lock className="w-4 h-4 text-white/20 group-hover:text-cathy-primary/50 transition" />
               </div>
               <div className="text-sm font-bold text-white">{role.codename}</div>

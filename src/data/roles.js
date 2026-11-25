@@ -12,6 +12,7 @@ export const ROLES = [
     codename: "THE BUILDER",
     job: "Software Developer",
     icon: Code2,
+    image: "/assets/Cathy_Builder.png",
     tagline: "Writes the code. Builds the fix.",
     brief:
       "The homepage is broken. Find the 3 log lines that show what the hacker actually did.",
@@ -31,6 +32,7 @@ export const ROLES = [
     codename: "THE DESIGNER",
     job: "UX / UI Designer",
     icon: Palette,
+    image: "/assets/Cathy_Designer.png",
     tagline: "Makes people trust it again.",
     brief:
       "The app is fixed. Now design the moment that makes everyone trust it again.",
@@ -50,6 +52,7 @@ export const ROLES = [
     codename: "THE DETECTIVE",
     job: "Data Analyst",
     icon: Search,
+    image: "/assets/Cathy_Detective.png", // Cathy_detective.ai needs exporting to PNG first
     tagline: "Finds the story in the numbers.",
     brief:
       "Somewhere in this login data is the evidence. Find the row that doesn't belong.",
@@ -69,6 +72,7 @@ export const ROLES = [
     codename: "THE GUARDIAN",
     job: "Cyber Security Analyst",
     icon: ShieldCheck,
+    image: "/assets/Cathy-Guardian.png",
     tagline: "Thinks like a hacker. Works for the good guys.",
     brief: "Two of these six emails let the hacker in. Spot the fakes.",
     avatarAccent: "#10B981",
@@ -87,6 +91,7 @@ export const ROLES = [
     codename: "THE STORYTELLER",
     job: "Product / Tech Communicator",
     icon: MessageSquare,
+    image: "/assets/Cathy_Storyteller.png",
     tagline: "Translates tech into human.",
     brief:
       "Parents are worried. Pick the sentence that tells them the truth without causing panic.",

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FcApproval } from "react-icons/fc";
 import {
   ArrowRight,
   Gamepad2,
@@ -159,22 +160,22 @@ export default function LandingPage() {
           </div>
           <ul className="grid sm:grid-cols-2 gap-2 text-sm text-white/70">
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> What the job actually involves day-to-day
+              <FcApproval className="shrink-0" /> What the job actually involves day-to-day
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> GCSE subjects that help
+              <FcApproval className="shrink-0" /> GCSE subjects that help
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> Paths in (degrees, apprenticeships)
+              <FcApproval className="shrink-0" /> Paths in (degrees, apprenticeships)
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> Pay ranges &amp; job demand in the UK
+              <FcApproval className="shrink-0" /> Pay ranges &amp; job demand in the UK
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> Free things to try next
+              <FcApproval className="shrink-0" /> Free things to try next
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-cathy-success">✓</span> Privacy-first — avatars only, nothing saved online
+              <FcApproval className="shrink-0" /> Privacy-first — avatars only, nothing saved online
             </li>
           </ul>
         </div>

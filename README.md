@@ -70,4 +70,9 @@ npm run preview
 - Progress stored in `sessionStorage` (clears when tab closes)
 - Nothing sent to a server
 
+## Credits
+
+- Kids avatar artwork by [Vecteezy](https://www.vecteezy.com/free-vector/kids-avatar) (free licence, attribution required)
+- Colourful UI icons from [Flat Color Icons](https://github.com/icons8/flat-color-icons) via `react-icons`
+
 *CaThY is founded and led by Theodora Orji.*

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Lock, UserCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { FcBusinessman, FcPrivacy, FcReading, FcDiploma1 } from "react-icons/fc";
 import TerminalWindow from "../components/TerminalWindow";
 
 export default function HowItWorksPage() {
@@ -13,7 +14,7 @@ export default function HowItWorksPage() {
       <div className="space-y-8">
         <section className="rounded-xl border border-cathy-border bg-cathy-panel p-6">
           <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
-            <UserCircle className="w-5 h-5 text-cathy-primary" />
+            <FcBusinessman className="w-6 h-6" />
             One player at a time
           </h2>
           <p className="text-white/70 leading-relaxed mb-4">
@@ -34,19 +35,22 @@ players.save_to_server = false`}
 
         <section className="rounded-xl border border-cathy-border bg-cathy-panel p-6">
           <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
-            <Lock className="w-5 h-5 text-cathy-primary" />
+            <FcPrivacy className="w-6 h-6" />
             Your privacy
           </h2>
           <p className="text-white/70 leading-relaxed">
-            We never ask for your name, email, age, or school. You choose an emoji
-            avatar and that&apos;s your whole identity. Progress is stored only in
+            We never ask for your name, email, age, or school. You choose a colourful
+            icon avatar and that&apos;s your whole identity. Progress is stored only in
             your browser tab (session storage) and disappears when you close the tab
             or start over. Nothing is sent to a server.
           </p>
         </section>
 
         <section className="rounded-xl border border-cathy-border bg-cathy-panel p-6">
-          <h2 className="text-xl font-bold mb-3">The story</h2>
+          <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
+            <FcReading className="w-6 h-6" />
+            The story
+          </h2>
           <p className="text-white/70 leading-relaxed mb-4">
             It&apos;s 8:45am on GCSE results day. Students are checking grades on
             the school app — but something&apos;s wrong. A hacker has broken in.
@@ -62,7 +66,10 @@ players.save_to_server = false`}
         </section>
 
         <section className="rounded-xl border border-cathy-border bg-cathy-panel p-6">
-          <h2 className="text-xl font-bold mb-3">After the mission</h2>
+          <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
+            <FcDiploma1 className="w-6 h-6" />
+            After the mission
+          </h2>
           <p className="text-white/70 leading-relaxed">
             Your Player Card explains the real job behind the codename: what they
             do, useful GCSEs, how people get into the field, typical UK salaries,

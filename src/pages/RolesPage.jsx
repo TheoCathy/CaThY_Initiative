@@ -20,12 +20,21 @@ export default function RolesPage() {
               className="rounded-xl border border-cathy-border bg-cathy-panel p-5 hover:border-cathy-primary/30 transition"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                  style={{ background: role.avatarAccent }}
-                >
-                  <Icon className="w-6 h-6 text-white" />
-                </div>
+                {role.image ? (
+                  <img
+                    src={role.image}
+                    alt={role.codename}
+                    className="w-24 h-24 rounded-2xl object-cover shrink-0"
+                    style={{ background: role.avatarAccent }}
+                  />
+                ) : (
+                  <div
+                    className="w-24 h-24 rounded-2xl flex items-center justify-center shrink-0"
+                    style={{ background: role.avatarAccent }}
+                  >
+                    <Icon className="w-10 h-10 text-white" />
+                  </div>
+                )}
                 <div>
                   <h2 className="font-black text-lg text-white">{role.codename}</h2>
                   <p className="text-sm text-white/50 font-mono">{role.job}</p>
